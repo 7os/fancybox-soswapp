@@ -1,0 +1,20 @@
+{
+  "name" : "7os/fancybox-soswapp",
+  "expression" : [
+    {
+      "regex" : "^7os/fancybox-soswapp/?$",
+      "path" : "/",
+      "flag" : ["QSA","NC","L"]
+    },
+    {
+      "regex" : "^7os/fancybox-soswapp/([a-zA-Z0-9\\-]{3,})/?$",
+      "path" : "/pages/$1.php",
+      "flag" : ["QSA","NC","L"]
+    },
+    {
+      "regex" : "^7os/fancybox-soswapp/(.*)$",
+      "path" : "/$1",
+      "flag" : ["QSA","NC","L"]
+    }
+  ]
+}
